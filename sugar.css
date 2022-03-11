@@ -1,0 +1,125 @@
+listing.css
+body{
+    margin: auto;
+}
+
+/* Header Start */
+header{
+    height:40px;
+    background-color:rosybrown;   
+}
+
+
+#social{
+    float:right
+}
+
+.slogo{
+    height: 30px;
+    width: 40px;
+}
+#heading{
+    text-align:center;
+}
+
+
+.logo{
+    height:50px;
+    width: 200px;
+    margin-top:1%;
+}
+
+.item img{
+    height: 500px;
+    width: 50%;
+    margin-bottom:30% ;
+  }
+.nav-item{
+    height:100px;
+    width: 100px;
+margin-top:5%;
+
+
+}
+.box{
+    margin-top: 29%;
+    
+  }
+  
+  .card {
+    height: 300px;
+    width: 260px;
+    background-color: white;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    box-shadow: 0 3px 6px rgb(17, 16, 16);
+    float: left;
+    animation: dance 10s infinite
+  }
+  
+  .card:hover { 
+  transform:scale(1.1)
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ .cursor {
+   cursor:pointer
+}
+
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 16px 50px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding
+    : 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+ 
+/* footer Start */
+footer{
+  height:250px;
+  background-color:rosybrown
+}
+
+.foot1{
+  width:38%;
+  height:120px;
+  float: left;
+  text-decoration-color :white;
+}
